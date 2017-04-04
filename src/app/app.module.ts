@@ -6,6 +6,8 @@ import { AppComponent }  from './app.component';
 import { HeroesComponent }  from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { NotFoundComponent } from './not-found.component';
+
 import { HeroService }         from './hero.service';
 
 import { AppRoutingModule }   from './app-routing.module';
@@ -20,7 +22,8 @@ import { AppRoutingModule }   from './app-routing.module';
     AppComponent,
     HeroDetailComponent,
     HeroesComponent,
-    DashboardComponent
+    DashboardComponent,
+    NotFoundComponent
   ],
   bootstrap:    [ AppComponent ],
   providers: [HeroService]
